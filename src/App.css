@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content:center;
 }
 
 .App-logo {
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
+}
+
+.checkboxes {
+
 }
